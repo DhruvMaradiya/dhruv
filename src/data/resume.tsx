@@ -67,7 +67,7 @@ export const DATA = {
 
         navbar: true,
       },
-      email: {
+      Email: {
         name: "Send Email",
         url: "mailto:dhruvmvr@gmail.com",
         icon: Icons.email,
@@ -249,9 +249,9 @@ export const DATA = {
         "Created a sentiment analysis application that analyzes Twitter data based on usernames and hashtags, using NLP to classify sentiments and visualize public opinion trends with a user-friendly interface.",
       technologies: [
         "NLTK",
-        "HTML",
-        "CSS",
-        "JS",
+        "Html",
+        "Css",
+        "Js",
         "Python",
         "Flask",
         "Twitter API",
