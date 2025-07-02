@@ -10,13 +10,14 @@ import Link from "next/link";
 import Markdown from "react-markdown";
 import Notification from "@/components/Notification"; 
 import {Globe} from "@/components/globe";
-
+import { SmoothCursor } from "@/components/magicui/smooth-cursor";
 
 
 const BLUR_FADE_DELAY = 0.04;
 
 export default function Page() {
   return (
+    <SmoothCursor>
     <main className="flex flex-col min-h-[100dvh] space-y-10">
       <section id="hero">
         <div className="mx-auto w-full max-w-2xl space-y-8">
@@ -266,5 +267,6 @@ export default function Page() {
     </div>
       </section>
     </main>
+      <SmoothCursor />
   );
 }
